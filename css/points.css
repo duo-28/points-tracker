@@ -1,0 +1,19 @@
+button#addStudentBtn {
+    float: right;
+}
+
+.table tbody tr td {
+    vertical-align: middle;
+}
+
+.name-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: var(--highlight-colour);
+    color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin: 0 auto;
+}

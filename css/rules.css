@@ -1,0 +1,25 @@
+.rule-table {
+    display: grid;
+    grid-template-columns: 50px auto;
+    gap: 10px;
+    align-items: center;
+    margin: 20px;
+}
+.rule-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--highlight-colour);
+    color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+.rule-text {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
